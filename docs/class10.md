@@ -3,14 +3,14 @@
 Este es el código que debes agregar para tu nueva Github Action
 
 ```yml
-name: API Contactos CI/CD
+name: API Contacts CI/CD
 
 on:
   push:
     branches: [ "main" ]
 
 env:
-  IMAGE_BASE_NAME: aminespinoza/apicontacts
+  IMAGE_BASE_NAME: ugarte/apicontacts
 
 jobs:
   API_Image:

@@ -44,6 +44,12 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
         Console.WriteLine("Hello, World!");
         return 0;
     }
+
+    public int UpdateMessage()
+    {
+        Console.WriteLine("Hello, World!");
+        return 0;
+    }
 }
 
 public partial class Program { } // Expose Program class for testing
