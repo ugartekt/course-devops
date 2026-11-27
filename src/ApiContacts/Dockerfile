@@ -15,6 +15,6 @@ ENTRYPOINT ["dotnet", "ApiContacts.dll"]
 
 #Ejecuta los comandos:
 
-#docker build -t aminespinoza/apicontacts .
+#docker build -t ugarte/apicontacts .
 
 #docker run -it --rm --name apicontacts -p 8080:8080 ugarte/apicontacts
